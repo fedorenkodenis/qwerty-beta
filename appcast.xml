@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>QWERTY</title>
+        <item>
+            <title>0.8.32</title>
+            <pubDate>Thu, 12 Nov 2026 10:59:24 +0300</pubDate>
+            <sparkle:version>72</sparkle:version>
+            <sparkle:shortVersionString>0.8.32</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/fedorenkodenis/qwerty-beta/releases/download/beta/QWERTY-0.8.32-72.zip" length="5145205" type="application/octet-stream" sparkle:edSignature="ASSQ53cqsNyq+2NwelRL3k1ja149ONQZ/4T+JuiNriNhXrnVO3BSh1Das2A7faL5klqIPkumpgxZQLliHr1CCg=="></enclosure>
+        </item>
+    </channel>
+</rss><!-- sparkle-signatures:
+edSignature: oJTDJLKwcQqMRxTPlIwP5cgxdfPpxU1EJMhjWe6CefM+SFQuwaybKZjBPNk9RyTYfmqpbyQ3fbPXTmYNNXnnBQ==
+length: 1051
+-->

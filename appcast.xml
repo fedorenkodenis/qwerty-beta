@@ -1,18 +1,29 @@
-<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+<?xml version="1.0" standalone="yes"?>
+<!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+-->
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>QWERTY</title>
+        <item>
+            <title>0.8.39</title>
+            <pubDate>Thu, 19 Nov 2026 01:05:45 +0300</pubDate>
+            <sparkle:version>79</sparkle:version>
+            <sparkle:shortVersionString>0.8.39</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/fedorenkodenis/qwerty-beta/releases/download/beta/QWERTY-0.8.39-79.zip" length="5541010" type="application/octet-stream" sparkle:edSignature="QgxsJI8Dq8PYVDFOS7qyj/y/OyJWoc6CfBqkowsN6+0+bH9opoh9fd59dsbcZFKXTEZDgTOTi7OfXQ6wCnfACA=="/>
+        </item>
         <item>
             <title>0.8.32</title>
             <pubDate>Thu, 12 Nov 2026 10:59:24 +0300</pubDate>
             <sparkle:version>72</sparkle:version>
             <sparkle:shortVersionString>0.8.32</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/fedorenkodenis/qwerty-beta/releases/download/beta/QWERTY-0.8.32-72.zip" length="5145205" type="application/octet-stream" sparkle:edSignature="ASSQ53cqsNyq+2NwelRL3k1ja149ONQZ/4T+JuiNriNhXrnVO3BSh1Das2A7faL5klqIPkumpgxZQLliHr1CCg=="></enclosure>
+            <enclosure url="https://github.com/fedorenkodenis/qwerty-beta/releases/download/beta/QWERTY-0.8.32-72.zip" length="5145205" type="application/octet-stream" sparkle:edSignature="ASSQ53cqsNyq+2NwelRL3k1ja149ONQZ/4T+JuiNriNhXrnVO3BSh1Das2A7faL5klqIPkumpgxZQLliHr1CCg=="/>
         </item>
     </channel>
-</rss><!-- sparkle-signatures:
-edSignature: oJTDJLKwcQqMRxTPlIwP5cgxdfPpxU1EJMhjWe6CefM+SFQuwaybKZjBPNk9RyTYfmqpbyQ3fbPXTmYNNXnnBQ==
-length: 1051
+</rss>
+<!-- sparkle-signatures:
+edSignature: /gVu6FggXAegCo9mc4c/FTJCT0fh30Xn/vZ0krMriaxHiKQ7vdpTpqi7xaWRCk6Ns+isixsymMVFZuyMTwguBQ==
+length: 1656
 -->

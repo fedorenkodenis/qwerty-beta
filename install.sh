@@ -270,7 +270,10 @@ main() {
     printf '%s\n' "$release" | /usr/bin/grep -Eq '^[0-9]+\.[0-9]+\.[0-9]+$' || fail 'Некорректная версия сборки.'
     case "$build:$bytes" in *[!0-9:]*) fail 'Некорректный размер или номер сборки.';; esac
     [ "$build" -gt 0 ] && [ "$bytes" -gt 0 ] && [ "$bytes" -le 67108864 ] || fail 'Некорректный размер или номер сборки.'
-    [ "$bundle" = "$BUNDLE_ID" ] && [ "$url" = "$ARCHIVE_URL" ] || fail 'Описание ссылается на другое приложение или сервер.'
+    versioned_archive="https://github.com/fedorenkodenis/qwerty-beta/releases/download/beta/QWERTY-$release-$build.zip"
+    [ "$bundle" = "$BUNDLE_ID" ] &&
+        { [ "$url" = "$ARCHIVE_URL" ] || [ "$url" = "$versioned_archive" ]; } ||
+        fail 'Описание ссылается на другое приложение или сервер.'
     [ "$minimum" = 26.0 ] && [ "$architecture_arm" = arm64 ] && [ "$architecture_intel" = x86_64 ] ||
         fail 'Описание сборки не соответствует этой версии установщика.'
     [ "${#checksum}" -eq 64 ] || fail 'Некорректная контрольная сумма.'

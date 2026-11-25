@@ -1,9 +1,9 @@
 {
-  "version": "0.8.45",
-  "build": 85,
-  "archive_url": "https://github.com/fedorenkodenis/qwerty-beta/releases/download/beta/QWERTY-0.8.45-85.zip",
-  "archive_bytes": 6805894,
-  "archive_sha256": "0e542f1f6bfb148963b5be5c2a46f6f1c4382ba502fe9dce85a220a3327bcee2",
+  "version": "0.8.46",
+  "build": 86,
+  "archive_url": "https://github.com/fedorenkodenis/qwerty-beta/releases/download/beta/QWERTY-0.8.46-86.zip",
+  "archive_bytes": 6828346,
+  "archive_sha256": "054f01697d02199472ed1f858506b736a40628c31284e1a13a6d4c356abe51f3",
   "bundle_id": "coffee.qwerty.switcher",
   "minimum_system_version": "26.0",
   "architectures": [

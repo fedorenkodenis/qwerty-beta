@@ -6,6 +6,14 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>QWERTY</title>
         <item>
+            <title>0.8.46</title>
+            <pubDate>Wed, 25 Nov 2026 12:47:34 +0300</pubDate>
+            <sparkle:version>86</sparkle:version>
+            <sparkle:shortVersionString>0.8.46</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/fedorenkodenis/qwerty-beta/releases/download/beta/QWERTY-0.8.46-86.zip" length="6828346" type="application/octet-stream" sparkle:edSignature="5IeBzgc1m2PLhJBpmI0vdsUD/f8BmNvXbajpk/tSUDyvnumKszSb1TDom0jOGszUKy5sbjV4+of0hroXgZPsCQ=="/>
+        </item>
+        <item>
             <title>0.8.45</title>
             <pubDate>Wed, 25 Nov 2026 12:14:43 +0300</pubDate>
             <sparkle:version>85</sparkle:version>
@@ -48,6 +56,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: tXMtou68BXr1lzqf0w1GnSC2ftpbw/9p8ei4bnCl3oEjsQo41Y79eKn/RpDsjdzWP1oy9gdHAkHnyTv1XA/RAA==
-length: 3495
+edSignature: FNdXnxfJgnxbVyqPdsIXdZRjC0RFY3DbDdxfGXz5+xQxGe1d9syEcgJ8PGIV1WMvez8t2kU15L0PAXMxn37yCA==
+length: 4108
 -->
